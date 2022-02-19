@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    width: 100vw;
+    background-color: #4040a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: black 3px solid;
+    margin-bottom: 20px;
+    color: #fff
+}
+
+main {
+    width: 90%;
+    height: 80vh;
+    display: center;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 2px 2px 6px;
+}

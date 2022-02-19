@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/table.css">
+    <link rel="stylesheet" href="/CSS/button.css">
+    <link rel="stylesheet" href="/CSS/modal.css">
+    <script src="/main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de produtos</h1>
+    </header>
+    <main>
+        <button id="botaoCadastrar" type="button" class="button-cadastro blue">Cadastrar novo produto</button>
+        <table id="tableProd">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Fornecedor</th>
+                    <th>Custo Unitario</th>
+                    <th>Quantidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr class="row">
+                    <td>Camiseta</td>
+                    <td>Imports TD</td>
+                    <td>48.99</td>
+                    <td>54</td>
+                    <td>
+                        <button type="button" class="button green" >Editar</button>
+                        <button type="button" class="button red" >Excluir</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>Regata</td>
+                    <td>Trovão IR</td>
+                    <td>24.99</td>
+                    <td>40</td>
+                    <td>
+                        <button type="button" class="button green" >Editar</button>
+                        <button type="button" class="button red" >Excluir</button>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>Bermuda</td>
+                    <td>Trovão IR</td>
+                    <td>14.99</td>
+                    <td>60</td>
+                    <td>
+                        <button type="button" class="button green" >Editar</button>
+                        <button type="button" class="button red" >Excluir</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div id="modal" class="modal">
+            <div class="modal-client">
+                <header class="modal-header">
+                    <h2>Novo Produto</h2>
+                    <span class="modal-close">&#10006;</span>
+                </header>
+                <form id="form">
+                    <input type="text" id="produto" data-index="new" placeholder="Nome do Produto" class="modal-field" required>
+                    <input type="text" id="fornecedor" placeholder="Nome do Fornecedor" class="modal-field" required>
+                    <input type="text" id="custo_unt" placeholder="Custo Unitário" class="modal-field" required>
+                    <input type="number" id="quantidade" placeholder="Quantidade" class="modal-field" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="botaoSalvar" class= "blue"> Salvar Produto</button>
+                    <button id="botaoCancelar" class=" red ">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.green {
+    background-color: rgb(0, 197, 43);
+}
+.red {
+    background-color: red;
+}
+.blue{
+    background-color:  rgb(56, 165, 255);
+}
+td button {
+    border: 0px;
+    padding: 10px;
+    padding-right: 30px;
+    color: white
+}
+.green:hover {
+    background-color: rgb(0, 104, 22);
+}
+.red:hover {
+    background-color: rgb(150, 0, 0);
+}
+.button-cadastro {
+    border: 0px;
+    margin: 16px 0 8px 2px; 
+    padding: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+.blue:hover {
+    background-color: rgb(36, 102, 156);
+}

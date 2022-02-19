@@ -1,0 +1,37 @@
+.modal{
+    display: fixed;
+    top: 000px;
+    width: 80%;
+    z-index: -1;
+    opacity: 0;
+
+}
+.modal.active{
+    opacity: 1;
+    z-index: 1;
+}
+.modal-header {
+    width: 100%;
+    height: 20%;
+}
+.modal-field {
+    width: calc(50% - 16px);
+    height: 36px;
+    outline-style: none;
+    border-style: none;
+    box-shadow: 0 0 2px black;
+    padding: 0 10px;
+    margin: 0 8px 8px 0;
+    font-size:1rem;
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.modal-footer button {
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 8px 8px;
+}

@@ -1,0 +1,21 @@
+.row {
+    height: 50px;
+}
+
+.row:hover {
+background-color: #577bc2;
+color: white;
+}
+tbody>tr:nth-child(odd){
+    background-color: #d1d1d1c7;
+}
+
+th {
+    width: 20vw;
+    height: 7vh;
+    background-color: #4040a1;
+    color: white;
+}
+tr > td {
+    padding-left: 10px;
+} 
