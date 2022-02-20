@@ -13,7 +13,7 @@
     <title>CRUD</title>
 </head>
 <body>
-    <header>
+    <header class="header-body">
         <h1>Cadastro de produtos</h1>
     </header>
     <main>
@@ -62,10 +62,10 @@
             </tbody>
         </table>
         <div id="modal" class="modal">
-            <div class="modal-client">
+            <div class="modal-content">
                 <header class="modal-header">
                     <h2>Novo Produto</h2>
-                    <span class="modal-close">&#10006;</span>
+                    <span id="close-modal" class="modal-close">&#10006;</span>
                 </header>
                 <form id="form">
                     <input type="text" id="produto" data-index="new" placeholder="Nome do Produto" class="modal-field" required>
@@ -74,7 +74,7 @@
                     <input type="number" id="quantidade" placeholder="Quantidade" class="modal-field" required>
                 </form>
                 <footer class="modal-footer">
-                    <button id="botaoSalvar" class= "blue"> Salvar Produto</button>
+                    <button id="botaoSalvar" class= "blue"> Salvar</button>
                     <button id="botaoCancelar" class=" red ">Cancelar</button>
                 </footer>
             </div>

@@ -1,21 +1,28 @@
-.row {
+table {
+    width: 100%;
+    z-index: 0;
+}
+
+tbody>tr {
     height: 50px;
 }
 
-.row:hover {
-background-color: #577bc2;
-color: white;
-}
+
 tbody>tr:nth-child(odd){
     background-color: #d1d1d1c7;
 }
 
+tbody>tr:hover {
+background-color: #577bc2;
+color: white;
+}
+
 th {
-    width: 20vw;
+    width: 20%;
     height: 7vh;
     background-color: #4040a1;
     color: white;
 }
 tr > td {
-    padding-left: 10px;
+    padding-left: 5px;
 } 

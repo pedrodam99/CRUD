@@ -138,3 +138,6 @@ document.getElementById('botaoSalvar')
 
 document.querySelector('#tableProd>tbody')
     .addEventListener('click', editDelete)
+
+document.getElementById('close-modal')
+    .addEventListener('click', closeModal)
