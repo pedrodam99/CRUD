@@ -5,6 +5,7 @@
 
 <h2> Ferramentas </h2>
 
+* Local Storage para armazenar dados
 * JavaScript
 * HTML
 * CSS
